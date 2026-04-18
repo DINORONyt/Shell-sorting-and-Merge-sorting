@@ -38,6 +38,72 @@ Lab03Variant17/
 
 ### Установка и запуск
 
+## Клонирование репозитория
+
+### Через HTTPS
+
+```bash
+git clone https://github.com/DINORONyt/Shell-sorting-and-Merge-sorting.git
+cd Shell-sorting-and-Merge-sorting
+```
+
+### Через SSH
+
+```bash
+git clone git@github.com:DINORONyt/Shell-sorting-and-Merge-sorting.git
+cd Shell-sorting-and-Merge-sorting
+```
+
+### Через GitHub Desktop
+
+1. Откройте **GitHub Desktop**
+2. Выберите **File** → **Clone Repository**
+3. В поле **URL or username/repo** вставьте:
+   ```
+   https://github.com/DINORONyt/Shell-sorting-and-Merge-sorting
+   ```
+4. Выберите локальный путь в поле **Local Path**
+5. Нажмите кнопку **Clone**
+
+### Через Visual Studio 2022
+
+1. Откройте Visual Studio
+2. На стартовом экране выберите **Clone a repository**
+3. В поле **Repository location** вставьте:
+   ```
+   https://github.com/DINORONyt/Shell-sorting-and-Merge-sorting
+   ```
+4. Укажите путь сохранения в поле **Path**
+5. Нажмите **Clone**
+
+### Через командную строку (пошагово)
+
+```bash
+# 1. Перейдите в папку для проекта
+cd C:\Users\ВашеИмя\Documents\Projects
+
+# 2. Клонируйте репозиторий
+git clone https://github.com/DINORONyt/Shell-sorting-and-Merge-sorting.git
+
+# 3. Перейдите в папку проекта
+cd Shell-sorting-and-Merge-sorting
+
+# 4. Откройте решение
+start Lab03Variant17.sln
+```
+
+### После клонирования
+
+```bash
+# Восстановите зависимости
+dotnet restore
+
+# Соберите проект
+dotnet build
+
+# Запустите приложение
+dotnet run --project WinFormsApp3
+```
 #### Требования
 - .NET 8.0 SDK
 - Visual Studio 2022 (с компонентом ".NET desktop development")
